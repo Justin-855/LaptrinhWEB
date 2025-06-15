@@ -1,0 +1,143 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #343a40;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-column {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px;
+    width: 30%;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.contact-info, .skills, .references, .interests {
+    margin-bottom: 20px;
+}
+
+.contact-info h3, .skills h3, .references h3, .interests h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .references p {
+    margin: 5px 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.skills .skill-bar {
+    background-color: #ddd;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.skills .skill-level {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.interests ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.interests li {
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.right-column {
+    padding: 20px;
+    width: 70%;
+}
+
+.right-column h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.right-column h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.right-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.work-experience, .education, .languages {
+    margin-bottom: 20px;
+}
+
+.work-experience .job, .education .school {
+    margin-bottom: 15px;
+}
+
+.work-experience .job-title, .education .degree {
+    font-weight: bold;
+}
+
+.work-experience .company, .education .university {
+    font-style: italic;
+}
+
+.languages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.languages li {
+    margin-bottom: 5px;
+}
+
+.languages .language-bar {
+    background-color: #ddd;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.languages .language-level {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 4px;
+}
